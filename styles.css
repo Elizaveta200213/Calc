@@ -1,0 +1,29 @@
+body {
+    background-color: #F5F5DC;
+    color: #FF4500;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container div {
+    display: flex;
+    gap: 15px;
+}
+
+.container div button {
+    width: 100px;
+}
+
+.input {
+    width: 100px;
+    padding: 15px;
+    font-size: 24px;
+}
